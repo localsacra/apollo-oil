@@ -1,0 +1,29 @@
+---
+layout: default
+title: Products
+---
+
+<section class="page-hero">
+  <div class="container">
+    <h1>Our Products</h1>
+    <p>High-performance lubricants for every industrial application.</p>
+  </div>
+</section>
+
+<section class="products">
+  <div class="container">
+    {% for product in site.data.products %}
+    <div class="product-card">
+      <h2>{{ product.name }}</h2>
+      <p class="product-card__category">{{ product.category }}</p>
+      <p class="product-card__description">{{ product.description }}</p>
+      <ul class="product-card__specs">
+        {% for spec in product.specs %}
+        <li>{{ spec }}</li>
+        {% endfor %}
+      </ul>
+      <a href="/contact/" class="btn">Enquire Now</a>
+    </div>
+    {% endfor %}
+  </div>
+</section>

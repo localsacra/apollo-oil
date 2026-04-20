@@ -1,0 +1,20 @@
+title: "Apollo Oil"
+description: "Premium industrial lubricants for businesses across Ireland."
+url: ""
+baseurl: ""
+
+author:
+  name: "Apollo Oil"
+  email: "info@apollooil.ie"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - _site
+  - .jekyll-cache

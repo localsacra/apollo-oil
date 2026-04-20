@@ -1,0 +1,31 @@
+- name: "Engine Oil"
+  category: "Engine Lubricants"
+  description: "High-performance engine oil suitable for heavy duty industrial machinery."
+  specs:
+    - "Available in 5L, 20L and 205L"
+    - "Suitable for diesel and petrol engines"
+    - "Meets ACEA and API standards"
+
+- name: "Hydraulic Oil"
+  category: "Hydraulic Fluids"
+  description: "Premium hydraulic fluid for industrial equipment and machinery."
+  specs:
+    - "Available in 20L and 205L"
+    - "High viscosity index"
+    - "Excellent anti-wear protection"
+
+- name: "Gear Oil"
+  category: "Gear Lubricants"
+  description: "Heavy duty gear oil for gearboxes, axles and differentials."
+  specs:
+    - "Available in 20L and 205L"
+    - "Extreme pressure protection"
+    - "Suitable for manual gearboxes"
+
+- name: "Grease"
+  category: "Greases"
+  description: "Multi-purpose lithium grease for general industrial applications."
+  specs:
+    - "Available in 400g cartridge and 12.5kg tub"
+    - "Water resistant"
+    - "Wide temperature range"
