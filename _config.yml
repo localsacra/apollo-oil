@@ -1,7 +1,7 @@
 title: "Apollo Oil"
 description: "Premium industrial lubricants for businesses across Ireland."
-url: ""
-baseurl: ""
+url: "https://localsacra.github.io"
+baseurl: "/apollo-oil"
 
 author:
   name: "Apollo Oil"
